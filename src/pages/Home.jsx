@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/Home.css';
-import cinnamonImg from '../images/hero_image.png';
+import cinnamonImg from '../assets/hero_image.png';
 
-const Home = () => {
+function Home() {
   return (
     <section className="hero-section" id='home'>
       <div className="hero-text">
-        <h1>ANCIENT FLAVOUR,<br />MODERN LIVING</h1>
+        <h1>ANCIENT FLAVOUR,<br/>MODERN LIVING</h1>
         <p>Experience the warmth and richness of pure Ceylon cinnamon.</p>
         <button className="explore-btn">Explore Now!</button>
       </div>
