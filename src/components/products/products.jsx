@@ -1,0 +1,178 @@
+
+const ProductsSection = () => {
+  const products = [
+    {
+      id: 1,
+      name: "Cinnamon Powder",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      price: "Rs. 600/-",
+      bgColor: "#8B7355"
+    },
+    {
+      id: 2,
+      name: "C5 Cinnamon",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      price: "Rs. 1300/-",
+      bgColor: "#A0916B"
+    },
+    {
+      id: 3,
+      name: "Cinnamon Powder",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      price: "Rs. 1000/-",
+      bgColor: "#8B7355"
+    }
+  ];
+
+  return (
+    <div className="products-section">
+      <h2 className="section-title">PRODUCTS</h2>
+      <div className="products-grid">
+        {products.map((product) => (
+          <div key={product.id} className="product-card" style={{backgroundColor: product.bgColor}}>
+            <div className="product-image-placeholder">
+              <div className="product-package"></div>
+            </div>
+            <div className="product-info">
+              <h3 className="product-name">{product.name}</h3>
+              <p className="product-description">{product.description}</p>
+              <div className="product-footer">
+                <span className="product-price">{product.price}</span>
+                <button className="add-btn">+</button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <style jsx>{`
+        .products-section {
+          background-color: #F5E6D3;
+          padding: 60px 20px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .section-title {
+          text-align: center;
+          font-size: 28px;
+          font-weight: 700;
+          color: #2c2c2c;
+          margin: 0 0 40px 0;
+          letter-spacing: 0.1em;
+        }
+
+        .products-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          gap: 30px;
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+
+        .product-card {
+          border-radius: 20px;
+          padding: 30px 20px 25px 20px;
+          color: white;
+          text-align: center;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+          transition: transform 0.2s ease;
+        }
+
+        .product-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-image-placeholder {
+          height: 120px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 20px;
+        }
+
+        .product-package {
+          width: 80px;
+          height: 100px;
+          background-color: rgba(255, 255, 255, 0.2);
+          border-radius: 8px;
+          border: 2px solid rgba(255, 255, 255, 0.3);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .product-package::after {
+          content: '📦';
+          font-size: 40px;
+          opacity: 0.7;
+        }
+
+        .product-info {
+          text-align: left;
+        }
+
+        .product-name {
+          font-size: 18px;
+          font-weight: 600;
+          margin: 0 0 8px 0;
+          color: white;
+        }
+
+        .product-description {
+          font-size: 14px;
+          line-height: 1.4;
+          margin: 0 0 20px 0;
+          opacity: 0.9;
+          color: white;
+        }
+
+        .product-footer {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .product-price {
+          font-size: 16px;
+          font-weight: 600;
+          color: white;
+        }
+
+        .add-btn {
+          width: 32px;
+          height: 32px;
+          background-color: rgba(255, 255, 255, 0.2);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+          border-radius: 6px;
+          color: white;
+          font-size: 18px;
+          font-weight: 600;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.2s ease;
+        }
+
+        .add-btn:hover {
+          background-color: rgba(255, 255, 255, 0.3);
+          transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+          .products-grid {
+            grid-template-columns: 1fr;
+            gap: 20px;
+          }
+          
+          .section-title {
+            font-size: 24px;
+          }
+        }
+      `}</style>
+    </div>
+  );
+};
+
+export default ProductsSection;
