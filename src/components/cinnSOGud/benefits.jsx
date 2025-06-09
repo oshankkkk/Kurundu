@@ -1,5 +1,5 @@
-import "./benifits.css"
-export default function Benfits(){
+import "./benefits.css"
+export default function Benefits(){
     return(
         <>
     <div className="support-card">
