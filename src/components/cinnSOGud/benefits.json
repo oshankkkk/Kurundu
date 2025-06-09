@@ -1,0 +1,30 @@
+{
+  "title": "Benefits of Ceylon Cinnamon",
+  "benefits": [
+    {
+      "number": 1,
+      "title": "Regulates Blood Sugar",
+      "description": "Helps lower blood glucose and improve insulin sensitivity – ideal for managing diabetes naturally."
+    },
+    {
+      "number": 2,
+      "title": "Packed with Antioxidants",
+      "description": "Fights free radicals with powerful polyphenols to protect your cells from damage."
+    },
+    {
+      "number": 3,
+      "title": "Reduces Inflammation",
+      "description": "Cinnamaldehyde in Ceylon cinnamon may ease chronic inflammation and support joint health."
+    },
+    {
+      "number": 4,
+      "title": "Supports Heart Health",
+      "description": "May help reduce bad cholesterol while maintaining healthy blood pressure."
+    },
+    {
+      "number": 5,
+      "title": "Fights Bacteria & Fungi",
+      "description": "Naturally defends against harmful bacteria and fungal infections – even helps preserve food."
+    }
+  ]
+}
