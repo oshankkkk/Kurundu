@@ -1,5 +1,7 @@
 import './App.css';
+import CinSoGud from './components/cinnSOGud/cinnSoGud';
 import Navbar from './components/navbar/NavBar';
+import ProductsSection from './components/products/products';
 import Home from './pages/Home';
 // import UniqueSection from './pages/UniqueSection';
 // import Footer from './components/footer/Footer';
@@ -7,7 +9,9 @@ import Home from './pages/Home';
 function App() {
   return (
     <>
-      <Navbar />
+    {/* <ProductsSection></ProductsSection> */}
+    {/* <CinSoGud></CinSoGud> */}
+ <Navbar />
       <Home />
     </>
   );
