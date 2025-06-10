@@ -1,14 +1,31 @@
-import "./benefits.css"
-export default function Benefits(){
-    return(
-        <>
-    <div className="support-card">
-        <h2 className="card-title">First-class Support</h2>
-        <p className="card-description">
-            Prompt and seamless service, provided by core competency experts.
-        </p>
-    </div>
-        </>
-    )
-}
+// import "./benefits.css"
+// export default function Benefits({benefit}){
 
+//    return(
+//         <>
+//     <div className="support-card">
+//         <h2 className="card-title"> {benefit.title} </h2>
+
+//         <p className="card-description">
+//         {benefit.description}
+//         </p>
+//     </div>
+//         </>
+//     )
+// }
+
+import "./benefits.css"
+import { forwardRef } from "react"
+
+const Benefits = forwardRef(({ benefit }, ref) => {
+  return (
+    <div className="support-card" ref={ref}>
+      <h2 className="card-title">{benefit.title}</h2>
+      <p className="card-description">
+        {benefit.description}
+      </p>
+    </div>
+  )
+});
+
+export default Benefits;
