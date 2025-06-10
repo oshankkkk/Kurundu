@@ -1,26 +1,25 @@
+
 [
   {
     "id": 1,
     "name": "Cinnamon Powder",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "price": "Rs. 600/-",
-    "bgColor": "#8B7355",
-    "imageURL": "../../assets/Cinnamon Powder.jpg"
+    "imageURL": "/public/cinn_powder.jpg"
   },
   {
     "id": 2,
     "name": "C5 Cinnamon",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "price": "Rs. 1300/-",
-    "bgColor": "#A0916B",
-    "imageURL": "../../assets/C5 Cinnamon.jpg"
+    "imageURL": "/public/cinn_oil.png"
   },
   {
     "id": 3,
     "name": "Cinnamon Powder",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "price": "Rs. 1000/-",
-    "bgColor": "#8B7355",
-    "imageURL": "../../assets/Cinnamon Powder.jpg"
+
+    "imageURL": "/public/cinn_quills.png"
   }
 ]
