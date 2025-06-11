@@ -1,3 +1,26 @@
-.banner{
+.scroll-wrapper{
     background-color: aqua;
+    /* min-height: 100vh; */
+    position: relative;
+
 }
+
+.card-wrapper{
+  margin-top: 3rem;
+  background-color: red;
+  /* position: relative; */
+  padding: 7rem;
+}
+
+.scroll-text{
+  position: absolute;
+  top:10%;
+  right: 50%;
+}
+
+
+.dummy-div {
+  height: 100vh;
+  background-color: lightcoral;
+}
+/* new deepseek */

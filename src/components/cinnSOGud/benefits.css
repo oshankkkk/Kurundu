@@ -7,9 +7,9 @@
   text-align: center;
   font-family: sans-serif;
   /* transition: transform 0.2s ease; */
-  position: absolute;
+  /* position: absolute; */
 }
-.support-card:nth-child(1) {
+/* .support-card:nth-child(1) {
   top: 100px;
   right: 0px;
 }
@@ -18,13 +18,13 @@
   left: 0px;
 }
 .support-card:nth-child(3){
-        top:300px;
-        right: 299px;
+        top:10%;
+        right:40%;
        } 
 .support-card:nth-child(4){
-        top:500px;
-        right: 0px;
-       } 
+        top:30%;
+        right:60%;
+       }  */
 .support-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);

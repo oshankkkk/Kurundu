@@ -9,8 +9,6 @@ import Home from './pages/Home';
 function App() {
   return (
     <>
-    {/* <ProductsSection></ProductsSection> */}
-    {/* <CinSoGud></CinSoGud> */}
  <Navbar />
       <Home />
     </>
