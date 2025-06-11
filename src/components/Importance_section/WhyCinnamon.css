@@ -1,0 +1,44 @@
+.why-cinnamon-wrapper {
+  background-color: #8D7452; 
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-cinnamon-features {
+  display: flex;
+  justify-content: center;
+  gap: 9rem;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 160px;
+  color: #000;
+  font-size: 0.95rem;
+}
+
+.feature img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
