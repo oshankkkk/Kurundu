@@ -15,9 +15,9 @@
 // }
 
 import "./benefits.css"
-import { forwardRef } from "react"
+// import { forwardRef } from "react"
 
-const Benefits = forwardRef(({ benefit }) => {
+function Benefits({ benefit })  {
   return (
     <div className="support-card" >
       <h2 className="card-title">{benefit.title}</h2>
@@ -26,6 +26,6 @@ const Benefits = forwardRef(({ benefit }) => {
       </p>
     </div>
   )
-});
+};
 
 export default Benefits;

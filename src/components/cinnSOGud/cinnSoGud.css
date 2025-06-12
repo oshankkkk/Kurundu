@@ -1,19 +1,21 @@
 .scroll-wrapper{
     background-color: aqua;
-    /* min-height: 100vh; */
     position: relative;
 
 }
 
 .card-wrapper{
   margin-top: 3rem;
-  background-color: red;
-  /* position: relative; */
+  /* background-color: red; */
   padding: 7rem;
+  /* position: relative; */
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.scroll-text{
-  position: absolute;
+.topic-text{
+  position:absolute;
+  z-index: 1;
   top:10%;
   right: 50%;
 }
@@ -23,4 +25,3 @@
   height: 100vh;
   background-color: lightcoral;
 }
-/* new deepseek */
