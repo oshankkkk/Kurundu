@@ -83,12 +83,8 @@ let benefits= [
           benefit={benefits[0]}
           ></Benefits>
         </div>
-        <div className='card-wrapper'>
-          <Benefits
-          benefit={benefits[1]}
-          ></Benefits>
-        </div>
-        <div className='card-wrapper' ref={cardWrapperEnd}>
+        
+        <div className='card-wrapper' >
           <Benefits
           benefit={benefits[5]}
           ></Benefits>
@@ -96,7 +92,11 @@ let benefits= [
           benefit={benefits[5]}
           ></Benefits>
         </div>
-
+<div className='card-wrapper'ref={cardWrapperEnd}>
+          <Benefits
+          benefit={benefits[1]}
+          ></Benefits>
+        </div>
 
 
       </div>

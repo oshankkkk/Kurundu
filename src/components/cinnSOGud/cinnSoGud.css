@@ -1,16 +1,15 @@
 .scroll-wrapper{
-    background-color: aqua;
     position: relative;
-
+    display: flex;
+    flex-direction: column;
+gap: 2rem;
 }
 
 .card-wrapper{
   margin-top: 3rem;
-  /* background-color: red; */
-  padding: 7rem;
-  /* position: relative; */
   display: flex;
   justify-content: space-evenly;
+align-items: flex-start
 }
 
 .topic-text{
@@ -18,10 +17,4 @@
   z-index: 1;
   top:10%;
   right: 50%;
-}
-
-
-.dummy-div {
-  height: 100vh;
-  background-color: lightcoral;
 }

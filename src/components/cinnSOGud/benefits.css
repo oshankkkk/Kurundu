@@ -2,13 +2,24 @@
   background: yellow;
   border-radius: 2rem;
   padding: 4rem 1rem;
-  margin: 2rem;
   max-width: 15%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-family: sans-serif;
   z-index: 2;
 }
+.support-card:nth-child(1){
+ margin-top: 10rem; 
+ margin-right: 10rem;
+}
+.support-card:nth-child(2){
+
+ margin-left: 10rem;
+}
+/* .card-wrapper:nth-child(odd) .support-card:nth-child(1) {
+  background-color: blue;
+  margin-top:10rem;
+} */
 
 .support-card:hover {
   transform: translateY(-2px);
