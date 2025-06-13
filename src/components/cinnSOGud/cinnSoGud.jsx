@@ -3,6 +3,7 @@ import Benefits from "./benefits.jsx";
 import "./cinnSoGud.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import BloodSugarIcon from '/public/bloodSugar.svg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -28,6 +29,7 @@ export default function CinSoGud() {
       title: "Regulates Blood Sugar",
       description:
         "Helps lower blood glucose and improve insulin sensitivity – ideal for managing diabetes naturally.",
+        
     },
     {
       title: "Packed with Antioxidants",
@@ -65,12 +67,10 @@ export default function CinSoGud() {
       <div className="scroll-wrapper">
         <div className="topic-wrapper">
           <div className="topic-text">
-            {/* <h2>Ceylon Cinnamon: Pure, Gentle, and Superior</h2>
+            <h2>Ceylon Cinnamon </h2>
             <h3>
-              Experience the mild, safe sweetness of Ceylon cinnamon  <br />
-              softer, healthier, and one of a kind.
-            </h3> */}
-            hjhkjh
+Pure, Gentle, and Superior
+                          </h3>
           </div>
         </div>
 
@@ -82,15 +82,11 @@ export default function CinSoGud() {
         <div className="card-wrapper">
           <Benefits benefit={benefits[4]}></Benefits>
         </div>
-        <div className="card-wrapper">
+        <div className="card-wrapper" ref={cardWrapperEnd}>
           <Benefits benefit={benefits[2]}></Benefits>
           <Benefits benefit={benefits[3]}></Benefits>
         </div>
 
-        <div className="card-wrapper" ref={cardWrapperEnd}>
-          <Benefits benefit={benefits[5]}></Benefits>
-          <Benefits benefit={benefits[6]}></Benefits>
-        </div>
       </div>
     </>
   );

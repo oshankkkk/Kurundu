@@ -11,7 +11,7 @@ right:0px;
 .scroller {
   display: flex;
   width: fit-content;
-  background-color: blue;
+  background-color: #8D7452;;
   will-change: transform; /* for better performance */
 }
 

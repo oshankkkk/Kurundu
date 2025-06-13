@@ -1,12 +1,12 @@
   .products-section {
           background-color: #F5E6D3;
-          background-color: red;
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+         padding: 1rem;
         }
 
         .section-title {
           text-align: center;
-          font-size: 2rem;
+          font-size: 2.5rem;
           font-weight: 700;
           color: #2c2c2c;
           margin: 0 0 40px 0;
@@ -14,7 +14,6 @@
         }
 
         .products-grid {
-          background-color: blue;
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
           gap: 30px;

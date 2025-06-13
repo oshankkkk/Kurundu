@@ -4,6 +4,7 @@
     flex-direction: column;
 gap: 2rem;
 padding-bottom: 20rem;
+margin-top: 2rem;
 }
 
 .card-wrapper{
@@ -19,12 +20,17 @@ align-items: flex-start
   top:10%;
   right: 0%;
   left: 0%;
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: center;
 }
+.topic-text{
+  transition: 0s;
+  text-align: center;
+}
 .topic-text h3,.topic-text h2{
- padding: 0rem  3rem;
+ /* padding: 0rem  3rem; */
+ margin: 0px;
   
 }
 .topic-text h2{
