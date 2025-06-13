@@ -1,24 +1,25 @@
-
 [
   {
     "id": 1,
     "name": "Cinnamon Powder",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "Ceylon cinnamon powder blends effortlessly into smoothies, oatmeal, and baked goods. Its sweet, delicate flavor enhances both sweet and savory dishes while offering daily antioxidant support.",
     "price": "Rs. 600/-",
-    "imageURL": "/public/cinn_powder.jpg"
+    "imageURL": "/public/cinn_powder.png"
   },
   {
     "id": 2,
-    "name": "C5 Cinnamon",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "name": "Cinnamon Oil",
+    "description":"Ceylon cinnamon oil is a potent extract used for aromatherapy, skincare, and natural wellness. Just a few drops can freshen the air, soothe sore muscles when diluted, or act as a natural antimicrobial in DIY remedies. Its rich, spicy scent energizes the senses and supports overall health.",
     "price": "Rs. 1300/-",
+
     "imageURL": "/public/cinn_oil.png"
   },
   {
     "id": 3,
-    "name": "Cinnamon Powder",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "price": "Rs. 1000/-",
+    "name": "Cinnamon Quills",
+    "description":"Ceylon cinnamon quills are perfect for infusing warmth and aroma into teas, curries, and desserts. Simply steep in boiling water or add to slow-cooked dishes for a subtle, sweet-spicy flavor and natural health benefits." ,
+       "price": "Rs. 1000/-",
+
 
     "imageURL": "/public/cinn_quills.png"
   }
