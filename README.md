@@ -10,3 +10,5 @@ Make a global style.css-
 5. Products
 6. Sustainable & 100% Original Statement
 7. Footer
+Fade in animation thing
+Admin Page
