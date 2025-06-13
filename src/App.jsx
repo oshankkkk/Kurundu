@@ -12,7 +12,7 @@ function App() {
     <>
  <Navbar />
       <Home />
-    <Scroller></Scroller>
+    {/* <Scroller></Scroller> */}
     <CinSoGud></CinSoGud>
     <ProductsSection></ProductsSection> 
       <WhyCinnamon/>
