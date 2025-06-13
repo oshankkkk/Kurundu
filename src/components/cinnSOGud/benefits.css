@@ -1,5 +1,5 @@
 .support-card {
-  background: yellow;
+  /* background-color: #8D7452; */
   border-radius: 2rem;
   padding: 4rem 1rem;
   max-width: 15%;
@@ -9,25 +9,24 @@
   z-index: 2;
 }
 .support-card:nth-child(1){
- margin-top: 10rem; 
- margin-right: 10rem;
+/* background-color: aqua; */
 }
 .support-card:nth-child(2){
 
- margin-left: 10rem;
+ margin-left: 20rem;
 }
-/* .card-wrapper:nth-child(odd) .support-card:nth-child(1) {
-  background-color: blue;
-  margin-top:10rem;
-} */
-
+.card-wrapper:nth-child(odd)  {
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+}
 .support-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .card-title {
-  color: #2c2c2c;
+  color: white;
   font-size: 24px;
   font-weight: 600;
   margin: 0 0 16px 0;
