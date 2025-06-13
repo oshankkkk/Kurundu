@@ -1,34 +1,41 @@
-import "./scroller.css"
-import { useEffect, useRef } from "react"
-export default function Scroller(){
-let scroller=useRef(null)
-function scrolling(){
-let scrollMsg=Array.from(scroller.current.children)
-console.log(scrollMsg)
-scrollMsg.forEach((msg)=>{
-    let dupMsg=msg.cloneNode(true)
-    scroller.current.appendChild(dupMsg)
-})
+import "./scroller.css";
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
 
-}
-useEffect(()=>{scrolling()},[])
-    return(
-        <div className="container ">
-            <div className="scroller" ref={scroller} >
-                <div className="scroll-text">Directly from Estate</div>
-                {/* <div className="scroll-text">Directly from Estate</div>
-                <div className="scroll-text">Directly from Estate</div>
-                <div className="scroll-text">Directly from Estate</div> */}
-            </div>
-{/* <div className="scroller" ref={scroller} >
-                <div className="scroll-text">Directly from Estate</div>
+export default function Scroller() {
+  const scroller = useRef(null);
 
-            </div>
-<div className="scroller" ref={scroller} >
-                <div className="scroll-text">Directly from Estate</div>
+  useEffect(() => {
+    const scrollerEl = scroller.current;
+    const texts = Array.from(scrollerEl.children);
 
-            </div> */}
+    // Clone texts for infinite loop
+    texts.forEach((text) => {
+      const clone = text.cloneNode(true);
+      scrollerEl.appendChild(clone);
+    });
 
-        </div>
-    )
+    const totalWidth = scrollerEl.scrollWidth / 2;
+
+    gsap.to(scrollerEl, {
+      x: `-=${totalWidth}`,
+      duration: 15,
+      ease: "none",
+      repeat: -1,
+      modifiers: {
+        x: gsap.utils.unitize((x) => parseFloat(x) % totalWidth),
+      },
+    });
+  }, []);
+
+  return (
+    <div className="container">
+      <div className="scroller" ref={scroller}>
+        <div className="scroll-text">Directly from Estate</div>
+        <div className="scroll-text">Directly from Estate</div>
+        <div className="scroll-text">Directly from Estate</div>
+        <div className="scroll-text">Directly from Estate</div>
+      </div>
+    </div>
+  );
 }
