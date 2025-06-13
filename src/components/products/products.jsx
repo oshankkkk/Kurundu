@@ -9,10 +9,7 @@ const ProductsSection = () => {
         {products.map((product) => (
           <div key={product.id} className="product-card" style={{backgroundColor: product.bgColor}}>
             <div className="product-image-placeholder">
-              {console.log(product.imageURL)}
-            {/* <img className="product-img" src={cinnOil} alt="img" /> */}
             <img className="product-img" src={product.imageURL} alt="img" />
-
             </div>
             <div className="product-info">
               <h3 className="product-name">{product.name}</h3>
