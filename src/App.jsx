@@ -1,9 +1,5 @@
-import './App.css';
-import WhyCinnamon from './components/Importance_section/WhyCinnamon';
-import CinSoGud from './components/cinnSOGud/cinnSoGud';
 import Navbar from './components/navbar/NavBar';
-import Footer from './pages/Footer';
-import ProductsSection from './components/products/products';
+import Footer from './components/footer/Footer';
 import Home from './pages/Home';
 
 function App() {
