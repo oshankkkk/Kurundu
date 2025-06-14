@@ -39,3 +39,7 @@ align-items: flex-start
 .topic-text h3{
   font-size: 1.5rem;
 }
+.benefits-svg-icons{
+  width: 100px;
+  height: 130px;
+}
