@@ -8,10 +8,10 @@
   flex-wrap: wrap; 
   justify-content: space-between;
   align-items: center;
-  background-color: #8D7452;
+  background-color: var(--color-primary-light);
   padding:1.5rem;
-  color: white;
-  font-family: 'Segoe UI', sans-serif;
+  color: var(--color-text-on-dark);
+  font-family: var(--font-primary);
   box-sizing: border-box;
   width: 100%;
 }
@@ -41,7 +41,7 @@
 }
 
 .navbar-links a:hover {
-  color: #ffdab9;
+  color: var(--color-background);
 }
 
 @media (max-width: 768px) {

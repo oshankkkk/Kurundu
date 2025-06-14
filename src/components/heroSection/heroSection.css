@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 3rem 5rem;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: var(--font-primary);
   margin-top:3rem;
   position: relative;
 /* flex-direction: column; */
@@ -26,18 +26,18 @@
 
 .hero-text p {
   font-size: 1.5rem;
-  color: #5a4634;
+  color: var(--color-secondary-light);
   margin-left:3rem ;
 }
 
 .explore-btn {
-  background-color: #6b4f3b;
-  color: white;
+  background-color: var(--color-primary);
+  color: var(--color-text-on-dark);
   font-size: medium;
   border: none;
   padding: 1rem 1.5rem;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   transition: background-color 0.3s;
   margin-top: 10px;
@@ -45,7 +45,7 @@
 }
 
 .explore-btn:hover {
-  background-color: #4b3523;
+  background-color: var(--color-primary-dark);
 }
 
 .hero-image {
@@ -72,7 +72,7 @@
 .hero-image {
   flex: 1.1; /* slightly more width */
   text-align: right;
-  padding: 20px;
+  padding: 10px;
 }
 
     .hero-image img {

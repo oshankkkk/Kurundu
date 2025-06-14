@@ -12,7 +12,7 @@ export default function HeroSection(){
   }
 return(
 
-    <section className="hero-section" >
+    <section className="hero-section" id='home'>
       <div className="hero-text">
         <h1>ANCIENT FLAVOUR,<br/>MODERN LIVING</h1>
         <p>Experience the warmth and richness of pure Ceylon cinnamon.</p>
