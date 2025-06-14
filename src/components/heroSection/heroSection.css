@@ -59,3 +59,35 @@
   height: auto;   
   padding-right: 9rem;
 }
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem;
+  }
+
+  .hero-text {
+  flex: 0.9; /* slightly less width */
+}
+
+.hero-image {
+  flex: 1.1; /* slightly more width */
+  text-align: right;
+  padding: 20px;
+}
+
+    .hero-image img {
+        width: 100px;
+        max-width: none;
+        height: 100px;
+        padding-right: 1rem;
+    }
+
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+}

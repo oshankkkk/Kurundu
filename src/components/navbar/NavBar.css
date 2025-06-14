@@ -5,7 +5,7 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  flex-wrap: wrap; /* allow wrapping on small screens */
+  flex-wrap: wrap; 
   justify-content: space-between;
   align-items: center;
   background-color: #8D7452;
@@ -28,8 +28,7 @@
   flex-wrap: wrap;
   font-size: large;
   gap: 1rem;
-  margin: 0;
-  padding: 0;
+  padding-right: 130px;
   justify-content: flex-end;
   flex: 2;
 }
@@ -45,36 +44,53 @@
   color: #ffdab9;
 }
 
-/* ----------- RESPONSIVE STYLES ------------ */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
     padding: 1rem;
+    justify-content: space-evenly;
   }
-
-  .navbar-logo {
-    margin-bottom: 1rem;
-  }
-
+  
   .navbar-links {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.75rem;
-    width: 100%;
+    gap: 1.2rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
   }
-
+  
   .navbar-links a {
-    font-size: 1.1rem;
+    white-space: nowrap;
+    font-size: 0.95rem;
   }
 }
 
-@media (max-width: 480px) {
-  .navbar-logo {
-    font-size: 1.25rem;
-  }
+@media (max-width: 768px) {
 
-  .navbar-links a {
-    font-size: 1rem;
-  }
+  .navbar {
+    display: flex
+;
+    position: fixed;
+    z-index: 6;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8D7452;
+    padding: 1.5rem;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    box-sizing: border-box;
+    width: 69%;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+    gap: 1rem;
+    padding-right: 5px;
+    justify-content: flex-end;
+    flex: 5;
+}
 }

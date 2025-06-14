@@ -31,7 +31,7 @@
   justify-content: center;
   /* margin-bottom: 20px; */
 padding: 1rem;
-background-color: red;
+background-color: burlywood;
 border-radius: 2rem;
 }
 
@@ -54,11 +54,12 @@ border-radius: 2rem;
   display:none;
   border-radius: 2rem;
   padding: 2rem;
-  font-size: 2rem;
+  background-color: rgb(184, 145, 94);
+  color: white;
   
 }
 .product-info p{
-font-size: 2rem;
+font-size: 1.7rem;
 font-weight: 500;
 
 }
