@@ -1,4 +1,14 @@
 :root {
+  /* new ones */
+  --color-primary: #8D7452;
+  --color-secondary: #E3C6A1;
+  --color-background: #FFF9D2;
+  --color-accent: #FADCB6;
+  --color-text: #705938;
+
+/* 
+
+
   --color-primary: #6b4f3b;
   --color-primary-dark: #4b3523;
   --color-primary-light: #8D7452;
@@ -19,14 +29,14 @@
   --font-primary: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  --font-secondary: sans-serif;
-  
-  --radius-sm: 5px;
-  --radius-md: 8px;
-  --radius-lg: 2rem;
+  --font-secondary: sans-serif; */
+ --radius:1rem ;
 
 }
-
+/* 
+* {
+  outline: 1px solid red; 
+} */
 
 body {
   margin: 0;
