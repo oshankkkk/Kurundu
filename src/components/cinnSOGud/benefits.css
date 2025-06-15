@@ -1,6 +1,6 @@
 .support-card {
-  background-color: #cea874;
-  border-radius: 2rem;
+  background-color: var(--color-primary-lightest);
+  border-radius: var(--radius-lg);
   padding: 4rem 1rem;
   width: 15rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -37,7 +37,7 @@
 }
 
 .card-title {
-  color: white;
+  color: var(--color-text-on-dark);
   font-size:1.5rem;
   font-weight: 600;
   margin: 0 0 1rem 0;
@@ -45,7 +45,7 @@
 }
 
 .card-description {
-  color: #444;
+  color: var(--color-text);
   font-size:1rem;
   line-height: 1.5;
   margin: 0;

@@ -1,6 +1,6 @@
 .footer {
-  background-color: #8D7452; /* warm brown */
-  color: #eee;
+  background-color: var(--color-primary-light);
+  color: var(--color-text-on-dark);
   margin-top: 130px;
   padding: 3rem 2rem 1.5rem;
 }
@@ -30,13 +30,13 @@
 .footer-section ul li {
   margin-bottom: 0.4rem;
   font-size: 0.95rem;
-  color: #dcdcdc;
+  color: var(--color-text-on-dark-light);
   cursor: pointer;
 }
 
 .brand h2 {
   font-weight: bold;
-  color: #fff;
+  color: var(--color-text-on-dark);
 }
 
 .social-icons {
@@ -45,17 +45,17 @@
   gap: 1rem;
   margin-left: 170px;
   font-size: 1.2rem;
-  color: #eee;
+  color: var(--color-text-on-dark);
 }
 
 .footer-bottom {
   margin-top: 2rem;
   text-align: center;
   font-size: 0.85rem;
-  color: #ccc;
+  color: var(--color-text-on-dark-light);
 }
 
 .footer-bottom hr {
   margin-bottom: 1rem;
-  border: 0.5px solid #ccc;
+  border: 0.5px solid var(--color-text-on-dark-light);
 }

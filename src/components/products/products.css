@@ -1,14 +1,14 @@
-.products-section {
-  background-color: #f5e6d3;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  padding: 5rem;
-}
+  .products-section {
+          background-color: var(--color-background);
+          font-family: var(--font-primary);
+         padding: 1rem;
+        }
 
 .section-title {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #2c2c2c;
+  color: var(--color-secondary);
   margin: 0 0 40px 0;
   letter-spacing: 0.1em;
 }

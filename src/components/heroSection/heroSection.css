@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem 3rem;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: var(--font-primary);
   margin-top:3rem;
   flex-wrap: wrap;
 }
@@ -25,24 +25,24 @@
 
 .hero-text p {
   font-size: 1.5rem;
-  color: #5a4634;
+  color: var(--color-secondary-light);
   margin-left:3rem ;
 }
 
 .explore-btn {
-  background-color: #6b4f3b;
-  color: white;
+  background-color: var(--color-primary);
+  color: var(--color-text-on-dark);
   font-size: medium;
   border: none;
   padding: 1rem 1.5rem;
   font-weight: bold;
-  border-radius: 0.25rem;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .explore-btn:hover {
-  background-color: #4b3523;
+  background-color: var(--color-primary-dark);
 }
 
 .hero-image {
@@ -56,11 +56,11 @@
   padding-right: 10rem;
 }
 .action-but{
-  display: flex;
-  margin-left: 3rem;
-  /* width: 100%; */
-  padding: 0.75rem 0rem; 
-  gap: 2rem;
+display: flex;
+margin-left: 3rem;
+/* width: 100%; */
+padding: 0.75rem 0rem; 
+gap: 2rem;
 }
 /* responsive.css */
 
@@ -106,4 +106,36 @@
 /* Very small phones or watches - 375px and below */
 @media (max-width: 375px) {
 
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem;
+  }
+
+  .hero-text {
+  flex: 0.9; /* slightly less width */
+}
+
+.hero-image {
+  flex: 1.1; /* slightly more width */
+  text-align: right;
+  padding: 10px;
+}
+
+    .hero-image img {
+        width: 100px;
+        max-width: none;
+        height: 100px;
+        padding-right: 1rem;
+    }
+
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
 }
