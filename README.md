@@ -1,8 +1,7 @@
 ## TODO List
-Responsive design
-React router to route pages
-Make a global style.css-
-Github pages host
-Fade in animation thing
+Responsive design(almost done)
+React router to route pages(almost done)
+Make a global style.css-(almost done)
+Github pages host(almost done, has bug )
 Admin Page
-useGSAP
+animation for the Products?
