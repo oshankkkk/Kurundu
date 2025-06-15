@@ -25,3 +25,8 @@ right:0px;
   text-transform: uppercase;
   padding: 0.25rem;
 }
+@media(max-width:480px){
+.container{
+  /* overflow:visible; */
+}
+}
