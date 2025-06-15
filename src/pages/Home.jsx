@@ -15,6 +15,7 @@ function Home() {
     <CinSoGud></CinSoGud>
     <ProductsSection></ProductsSection> 
       <WhyCinnamon/>
+
     </>
   );
 };
