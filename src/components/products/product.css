@@ -1,8 +1,8 @@
 .product-card {
-  border-radius:var(--radius-lg);
+  border-radius:var( --radius );
   padding: 2rem;
-  color: var(--color-text-on-dark);
-  background-color: var(--color-primary-lightest);
+  color: var( --color-accent );
+  background-color: var( --color-primary );
   text-align: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
@@ -28,14 +28,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-bottom: 20px; */
 padding: 1rem;
-background-color: var(--color-primary-lightest);
-border-radius: var(--radius-lg);
+background-color: black;
+border-radius: var( --radius );
+
 }
 
 .product-img {
-  max-width: 20rem;
+max-width: 20rem;
+
 }
 
 .product-info {
@@ -45,9 +46,9 @@ border-radius: var(--radius-lg);
   left: 0px;
   right: 0px;
   display:none;
-  border-radius: var(--radius-lg);
+  border-radius: var( --radius );
   padding: 2rem;
-  background-color: var(--color-card-hover);
+  background-color: var( --color-secondary );
   color: var(--color-text-on-dark);
   
 }
@@ -55,18 +56,19 @@ border-radius: var(--radius-lg);
 font-size: 1.7rem;
 font-weight: 500;
 
-  color: #8D7452;
+  color:var(--color-accent);
 }
 .product-heading{
   font-size: 2.5rem ;
 
 }
 .product-name {
+  text-wrap: wrap;
   text-align: left;
   font-size: 1.75rem;
   font-weight: 600;
   margin: 0 0 8px 0;
-  color: var(--color-text-on-dark);
+  color: var( --color-accent );
 }
 
 .product-description {
@@ -74,7 +76,7 @@ font-weight: 500;
   line-height: 1.4;
   margin: 0 0 20px 0;
   opacity: 0.9;
-  color: var(--color-text-on-dark);
+  color: var( --color-secondary );
 }
 
 .product-footer {
@@ -84,184 +86,15 @@ font-weight: 500;
   /* background-color: yellow; */
 }
 
-.product-price {
+@media(max-width:480px){
+  .product-img{
+
+width: 100%;
+  }
+}
+/* .product-price {
   font-size:1rem;
   font-weight: 600;
-  color: var(--color-text-on-dark);
-}
-
-
-@media (max-width: 768px) {
-  .products-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .section-title {
-    font-size: 24px;
-  }
-}
-/* 
-.product-card {
-  border-radius: 2rem;
-  padding: 2rem;
-  color: white;
-  background-color: burlywood;
-  text-align: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  margin: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  position: relative;
-}
-
-.product-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-}
-
-.product-card:hover .product-info {
-  display: block;
-}
-
-.product-image-wrapper {
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  background-color: #fce5c0;
-  border-radius: 2rem;
-}
-
-.product-img {
-  width: 100%;
-  max-width: 20rem;
-  height: auto;
-}
-
-.product-info {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: none;
-  border-radius: 2rem;
-  padding: 2rem;
-  font-size: 2rem;
-  background-color: #fce5c0;
-  color: #8D7452;
-  overflow-y: auto;
-}
-
-.product-info p {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #8D7452;
-}
-
-.product-heading {
-  font-size: 2.5rem;
-}
-
-.product-name {
-  text-align: left;
-  font-size: 1.75rem;
-  font-weight: 600;
-  margin: 0 0 8px 0;
-  color: white;
-}
-
-.product-description {
-  font-size: 0.75rem;
-  line-height: 1.4;
-  margin: 0 0 20px 0;
-  opacity: 0.9;
-  color: white;
-}
-
-.product-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.product-price {
-  font-size: 1rem;
-  font-weight: 600;
-  color: white;
-} */
-
-/* ==== Responsive Media Queries ==== */
-
-/* Tablets */
-/* @media (max-width: 768px) {
-  .product-card {
-    padding: 1rem;
-    margin: 1rem;
-  }
-
-  .product-img {
-    max-width: 100%;
-  }
-
-  .product-heading {
-    font-size: 1.75rem;
-  }
-
-  .product-info {
-    font-size: 1.25rem;
-    padding: 1rem;
-  }
-
-  .product-info p {
-    font-size: 1rem;
-  }
-
-  .product-name {
-    font-size: 1.25rem;
-  }
-
-  .product-description {
-    font-size: 0.65rem;
-  }
-
-  .product-price {
-    font-size: 0.9rem;
-  }
-} */
-
-/* Phones */
-/* @media (max-width: 480px) {
-  .product-card {
-    gap: 1rem;
-  }
-
-  .product-heading {
-    font-size: 1.5rem;
-  }
-
-  .product-info {
-    font-size: 1rem;
-  }
-
-  .product-info p {
-    font-size: 0.9rem;
-  }
-
-  .product-name {
-    font-size: 1rem;
-  }
-
-  .product-description {
-    font-size: 0.6rem;
-  }
-
-  .product-price {
-    font-size: 0.8rem;
-  }
+  color: var( --color-text-on-dark );
 } */
 

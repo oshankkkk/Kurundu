@@ -22,10 +22,9 @@
 
 .why-cinnamon-features {
   display: flex;
-  justify-content: center;
-  gap: 9rem;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 1rem;
 }
 
 .feature {
