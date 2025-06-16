@@ -103,10 +103,10 @@ align-items: center;
 
 /* Tablets (portrait) - 768px and below */
 @media (max-width: 768px) {
-/* .hero-section{
+.hero-section{
   margin: 0px;
-  padding: 0px;
-} */
+padding-top: 4rem;
+}
 }
 
 /* Phones (landscape) - 600px and below */
