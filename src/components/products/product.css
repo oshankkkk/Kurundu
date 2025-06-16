@@ -61,6 +61,7 @@ font-weight: 500;
 .product-heading{
   font-size: 2.5rem ;
 
+  color: var( --color-text);
 }
 .product-name {
   text-wrap: wrap;
@@ -92,9 +93,13 @@ font-weight: 500;
 width: 100%;
   }
 }
-/* .product-price {
+.product-price {
   font-size:1rem;
   font-weight: 600;
   color: var( --color-text-on-dark );
-} */
+  margin: 0%;
+  text-align: start;
+}
+.product-price-wrapper{
+}
 
