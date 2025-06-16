@@ -46,11 +46,11 @@ calCartNum
         </NavLink>
       </div>
 
-     <div className='cart-icon'>
+     {/* <div className='cart-icon'>
       <CiShoppingBasket></CiShoppingBasket>
 
       {cartCount}
-      </div> 
+      </div>  */}
     </nav>
   );
 }

@@ -1,4 +1,7 @@
 import "./WhyCinnamon.css";
+import ceylon from  "../../assets/ceylon.png"
+import hand from  "../../assets/hand.png"
+import ethically from  "../../assets/ethically.png"
 
 function WhyCinnamon(){
     return (
@@ -10,15 +13,16 @@ function WhyCinnamon(){
 
       <div className="why-cinnamon-features">
         <div className="feature">
-          <img src="src/assets/ceylon.png" alt="100% Pure Ceylon Cinnamon" />
+          <img src={ceylon} alt="100% Pure Ceylon Cinnamon" />
           <p>100% Pure Ceylon<br />Cinnamon</p>
         </div>
         <div className="feature">
-          <img src="src/assets/hand.png" alt="Hand-Harvested with Care" />
+          <img src={hand} alt="Hand-Harvested with Care" />
+
           <p>Hand-Harvested<br />with Care</p>
         </div>
         <div className="feature">
-          <img src="src/assets/ethically.png" alt="Ethically Sourced" />
+          <img src={ethically} alt="Ethically Sourced" />
           <p>Ethically Sourced.<br />Sustainably Made.</p>
         </div>
       </div>

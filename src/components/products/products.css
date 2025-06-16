@@ -3,6 +3,7 @@
   font-family: var(--font-primary);
   padding: 2rem;
   margin-bottom: 2rem;
+
 }
 
 .section-title {
@@ -13,7 +14,7 @@
   letter-spacing: 0.1em;
 }
 .section-title h1{
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 .products-grid {
   display: grid;

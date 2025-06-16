@@ -15,9 +15,7 @@ function Product({ product }) {
           <h2 className="product-heading">{product.name}</h2>
           <p className="product-description">{product.description}</p>
         </div>
-        <button>
-          add to cart
-        </button>
+       
       </div>
     </>
   );
