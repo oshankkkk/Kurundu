@@ -1,0 +1,47 @@
+.cart-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+  border: 3px solid red;
+  z-index: 20;
+}
+
+.cart-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  border-top: 1px solid gray;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 1.125rem; /* approx text-lg in Tailwind */
+}
+
+.cart-button {
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.cart-button:hover {
+  background-color: #ddd;
+}
