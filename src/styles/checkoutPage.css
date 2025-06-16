@@ -1,0 +1,7 @@
+.checkoutpage{
+display: flex;
+background-color: black;
+padding: 1rem;
+margin-top: 5rem;
+flex-wrap: wrap;
+}
