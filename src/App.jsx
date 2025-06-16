@@ -6,7 +6,7 @@ import Policy from './pages/Policy';
 
 function App() {
   return (
-    <Router >
+    <Router basename='/Kurundu' >
       <Navbar />
       
       <Routes>
