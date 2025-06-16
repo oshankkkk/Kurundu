@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
 :root {
   /* new ones */
   --color-primary: #8D7452;
   --color-secondary: #E3C6A1;
-  --color-background: #FFF9D2;
+  --color-background: #FFEBC1;
   --color-accent: #FADCB6;
   --color-text: #705938;
 
@@ -30,8 +32,9 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   --font-secondary: sans-serif; */
- --radius:1rem ;
-
+  --font-primary: 'Manrope',sans-serif;
+  --font-secondary: sans-serif;
+  --radius:1rem ;
 }
 /* 
 * {
