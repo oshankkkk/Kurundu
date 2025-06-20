@@ -1,3 +1,5 @@
 ## TODO List
-Make a global style.css-(almost done)
-make the checkout Page work
+
+# update the checkout page styles 
+# add email js
+# add admin page 
